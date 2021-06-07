@@ -1,1 +1,5 @@
 # doubly-linked-list
+
+Program implements a doubly linked list along with an application of the container. Program includes a use of namespace, operator overloading, class template, and nested iterator classes. 
+
+Application of the doubly linked list includes a program emulating the memory management in an Operating System. Class MyMemoryBlock emulates one memory block while class MyMemory emulates the system memory. Each memory block has a unique index such as a memory address, which will be specified and manipulated when a memory block is created or deleted. Each block has a length field, which tracks the length of the memory block. There are no real memory allocations and de-allocations involved in this application as the process is emulated by simply manipulating the length of a memory block. For the class MyMemory, mlist is a List of MyMemoryBlock. There is a max_index for the value of memory blocks used in the system. When the system memory is created, the memory blocks have the index values ranging from 0 to max_index and the block_size is the length of memory blocks. 
